@@ -16,6 +16,6 @@ class DevopstestApplicationTests {
     public void testApp(){
         HomeController hc = new HomeController();
         String result = hc.home();
-        assertEquals(result, "Das Boot, reporting for duty! v. Pipeline");
+        assertEquals(result, "Das Boot, reporting for duty! v. Video Tutorial");
     }
 }

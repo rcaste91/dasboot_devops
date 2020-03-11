@@ -8,6 +8,6 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String home(){ 
-		return "Das Boot, reporting for duty! v. Pipeline";
+		return "Das Boot, reporting for duty! v. Video Tutorial";
 	}
 }
