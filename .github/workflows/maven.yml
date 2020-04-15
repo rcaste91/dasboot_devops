@@ -29,7 +29,7 @@ jobs:
     - name: copy jar
       run: |
         cd target
-        copy *.jar .. 
+        cp *.jar .. 
   # Run tests.
   # See also https://docs.docker.com/docker-hub/builds/automated-testing/
   test:
